@@ -1,15 +1,11 @@
-import ListGroup from "./components/ListGroup";
-import NavBar from "./components/NavBar";
+import Home from "./pages/home";
 import "./custom.scss";
 import "./App.css";
 
 function App() {
   return (
-    <div className="bg p-2">
-      <div className="">
-        <NavBar />
-      </div>
-      <ListGroup />
+    <div>
+      <Home />
     </div>
   );
 }

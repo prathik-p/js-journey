@@ -2,10 +2,10 @@ import NavBar from "../components/NavBar";
 
 function Home() {
   return (
-    <div className="bg p-2">
+    <div className="bg p-2 pt-3">
       <NavBar />
       <div className="para">
-        <div>s</div>
+        <div>Shawty a lil baddy</div>
       </div>
     </div>
   );

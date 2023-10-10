@@ -4,7 +4,7 @@ function NavBar() {
       <nav className="navbar navbar-expand-lg" data-bs-theme="dark">
         <div className="container-fluid">
           <a className="navbar-brand " href="#">
-            <h3>Navbar</h3>
+            <h3>Prathik Prejith</h3>
           </a>
           <button
             className="navbar-toggler"
@@ -63,17 +63,18 @@ function NavBar() {
                 </a>
               </li>
             </ul>
-            <form className="d-flex" role="search">
-              <input
-                className="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              ></input>
-              <button className="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
+            <ul className="navbar-nav mb-2 mb-lg-0">
+              <li className="nav-item">
+                <a className="nav-link" aria-current="page" href="#">
+                  Projects
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" aria-current="page" href="#">
+                  Contant me!
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </nav>

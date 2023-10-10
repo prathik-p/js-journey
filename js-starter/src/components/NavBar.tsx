@@ -1,10 +1,13 @@
 function NavBar() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg" data-bs-theme="dark">
+      <nav
+        className="navbar navbar-expand-lg bg-body-tertiary"
+        data-bs-theme="dark"
+      >
         <div className="container-fluid">
-          <a className="navbar-brand " href="#">
-            <h3>Prathik Prejith</h3>
+          <a className="navbar-brand mb-0" href="#">
+            Prathik Prejith
           </a>
           <button
             className="navbar-toggler"
